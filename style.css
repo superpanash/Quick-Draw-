@@ -1,0 +1,41 @@
+body{
+    background-color:#FFD93D;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+h1{
+    background-color:#FFF8D6;
+    color:rgb(16, 55, 88);
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:65px;
+}
+
+#bt_doodler{
+    float:right;
+    font-size:25px;
+    margin-top:20px;
+    border-radius:20px;
+}
+
+p{
+    padding-top:10px;
+    font-size:30px;
+}
+
+.clear{
+    font-size:25px;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius:50px;
+    animation-name:trans;
+   animation-duration:4s;
+   animation-iteration-count:infinite;
+    margin-top:150px;
+}
+
+@keyframes trans{
+    from{box-shadow:1px 1px 40px rgb(0, 255, 85)}
+    to{box-shadow:1px 1px 40px rgb(0, 183, 255)}
+}
